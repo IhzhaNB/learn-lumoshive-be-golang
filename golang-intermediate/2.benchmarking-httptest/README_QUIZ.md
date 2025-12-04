@@ -11,7 +11,7 @@ Pernyataan yang benar mengenai `httptest.NewRecorder()` di **Golang** adalah:
 **Fungsi ini digunakan untuk membuat objek `http.ResponseRecorder` untuk merekam hasil response dari handler HTTP.**
 
 **Sumber**:
-pada file [**`http-test/README.md`**](golang-intermediate/2.benchmarking-httptest/4.http-test/README.md)
+pada file [**`http-test/README.md`**](../2.benchmarking-httptest/4.http-test/README.md)
 
 ---
 
@@ -26,7 +26,7 @@ Cara yang **benar** dan **standar** untuk mengukur waktu eksekusi suatu fungsi d
 **Menggunakan `b.N` untuk mengukur jumlah iterasi dan waktu eksekusi**
 
 **Sumber**:
-pada file [**`benchmark/README.md`**](golang-intermediate/2.benchmarking-httptest/2.benchmark/README.md)
+pada file [**`benchmark/README.md`**](../2.benchmarking-httptest/2.benchmark/README.md)
 
 ---
 
@@ -41,7 +41,7 @@ Tujuan utama dari menggunakan **`b.N`** dalam _benchmarking_ di Golang adalah:
 **Untuk mendefinisikan jumlah iterasi yang dilakukan dalam benchmark**
 
 **Sumber**:
-pada file [**`benchmark/README.md`**](golang-intermediate/2.benchmarking-httptest/2.benchmark/README.md)
+pada file [**`benchmark/README.md`**](../2.benchmarking-httptest/2.benchmark/README.md)
 
 ---
 
@@ -56,7 +56,7 @@ Pernyataan yang benar mengenai **Sub-Benchmark** di Golang adalah:
 **Sub-benchmark memungkinkan pengujian beberapa parameter dalam satu fungsi benchmark menggunakan metode `b.Run()`**
 
 **Sumber**:
-pada file [**`sub-table-benchmark/README.md`**](golang-intermediate/2.benchmarking-httptest/3.sub-table-benchmark/README.md)
+pada file [**`sub-table-benchmark/README.md`**](../2.benchmarking-httptest/3.sub-table-benchmark/README.md)
 
 ---
 
@@ -71,4 +71,4 @@ Perintah yang tepat untuk menjalankan _benchmark_ sambil mengaktifkan pengukuran
 $$\text{go test -bench . -benchmem}$$
 
 **Sumber**:
-pada file [**`benchmark/README.md`**](golang-intermediate/2.benchmarking-httptest/2.benchmark/README.md)
+pada file [**`benchmark/README.md`**](../2.benchmarking-httptest/2.benchmark/README.md)
